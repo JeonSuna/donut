@@ -576,24 +576,12 @@ video {
   height: 45px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .w-\[100\%\] {
   width: 100%;
 }
 
-.w-auto {
-  width: auto;
-}
-
 .max-w-\[425px\] {
   max-width: 425px;
-}
-
-.max-w-\[300px\] {
-  max-width: 300px;
 }
 
 .flex-wrap {
@@ -606,20 +594,6 @@ video {
 
 .gap-7 {
   gap: 1.75rem;
-}
-
-.truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.text-ellipsis {
-  text-overflow: ellipsis;
-}
-
-.whitespace-nowrap {
-  white-space: nowrap;
 }
 
 .break-words {
@@ -718,6 +692,21 @@ video {
 }
 
 .shadow-shadow\/10 {
+  --tw-shadow: 0px 4px 40px rgba(0,0,0,0.2);
+  --tw-shadow-colored: 0px 4px 40px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.\*\:size-\[45px\] > * {
+  width: 45px;
+  height: 45px;
+}
+
+.\*\:rounded-xl > * {
+  border-radius: 0.75rem;
+}
+
+.\*\:shadow-shadow\/10 > * {
   --tw-shadow: 0px 4px 40px rgba(0,0,0,0.2);
   --tw-shadow-colored: 0px 4px 40px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
