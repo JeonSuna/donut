@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <div class="max-w-[425px] mx-auto bg-pink-100 text-3xl" >
+    <div class="max-w-[425px] mx-auto mt-0 bg-pink-100 text-3xl ">
         <img src="./icons/donut.svg" alt="">
-        <div class="p-10 bg-white text-black rounded-t-[40px] w-[100%] ">
+        <div class="p-10 bg-white text-black rounded-t-[40px] w-[100%] relative">
             <div>
                 <h1 class="text-pink-200 text-2xl font-semibold break-words">Strawberry Wheel</h1>
+                <button type="button" class=" flex items-center justify-center size-11 bg-white rounded-xl absolute top-0 right-0 -translate-y-1/2 -translate-x-1/2">
+                    <img src="icons/heart.svg" alt="장바구니">
+                </button>
             </div>
                 <section>
                 <h2 class="text-[18px] font-semibold">About Gonut</h2>
@@ -23,14 +26,14 @@
                 <section class="mt-[26px]">
                     <h2>Quantity</h2>
                 <div class="flex gap-5 pt-5 flex-wrap *:shadow-shadow/10 *:size-[45px] *:rounded-xl">
-                    <button class="bg-white">-</button>
-                    <button class="bg-white">1</button>
-                    <button class="bg-black text-white">+</button>
+                    <button type="button" class="bg-white">-</button>
+                    <button type="button" class="bg-white">1</button>
+                    <button type="button" class="bg-black text-white">+</button>
                 </div>
                 </section>
                 <div class="flex gap-7 mt-11 flex-wrap">
                     <span class="font-semibold">£16</span>
-                    <button class="rounded-xl bg-pink-200 text-white text-[20px] h-15 px-[76px]">Add to Cart</button>
+                    <button type="button" class="rounded-xl bg-pink-200 text-white text-[20px] h-15 px-[76px]">Add to Cart</button>
                 </div>
     
     

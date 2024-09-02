@@ -43,6 +43,7 @@ module.exports = {
         "shadow/100": "0px 4px 4px 0px rgba(68,131,63,0.15)",
         "shadow/200": "0px 0px 2px 0px rgba(114,119,124,0.2)",
         "shadow/10": "0px 4px 40px rgba(0,0,0,0.2)",
+        "shadow/20":"0px 4px 0px rgba(0,0,0,0.5)",
       },
       borderRadius: {
         none: 0,
